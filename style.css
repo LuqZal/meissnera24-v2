@@ -178,11 +178,11 @@ iframe{
 }
 
 #opis p {
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 }
 
 #opis p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 @media(max-width:1200px){
