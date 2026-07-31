@@ -127,8 +127,12 @@ body{
 }
 
 #opis h3{
+    font-family:'Inter', sans-serif;
+    font-size:28px;
+    font-weight:600;
+    max-width:700px;
+    margin:0 auto 30px;
     text-align:center;
-    margin-bottom:30px;
 }
 
 .opis-lista{
