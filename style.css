@@ -123,6 +123,26 @@ body{
     font-size:14px;
 }
 
+.opis-lista{
+    max-width:700px;
+    margin:30px auto 0;
+    padding:0;
+    list-style:none;
+}
+
+.opis-lista li{
+    padding:14px 0;
+    border-bottom:1px solid #ececec;
+    font-size:1.05rem;
+}
+
+.opis-lista li::before{
+    content:"✓";
+    color:#c79a4a;
+    font-weight:700;
+    margin-right:12px;
+}
+
 section{
     max-width:1200px;
     margin:80px auto;
