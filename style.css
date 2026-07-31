@@ -75,17 +75,20 @@ body{
 
 .btn{
     display:inline-block;
-    padding:15px 34px;
-    background:#fff;
-    color:#222;
+    padding:16px 38px;
+    background:#c79a4a;
+    color:#fff;
     text-decoration:none;
     border-radius:12px;
     font-weight:600;
+    box-shadow:0 10px 25px rgba(199,154,74,.30);
     transition:.25s;
 }
 
 .btn:hover{
-    transform:translateY(-2px);
+    background:#b88934;
+    transform:translateY(-3px);
+    box-shadow:0 16px 35px rgba(199,154,74,.40);
 }
 
 .stats-bar{
